@@ -1,6 +1,11 @@
 package Toys;
 
-public interface SaveListToys {
+public interface SaveInfo {
 
-    public
+    /**
+     * Сохранение выйгранной игрушки в текстовый файл
+     * @param toy игрушка
+     */
+    public void SaveListToys(Toy toy);
+
 }
